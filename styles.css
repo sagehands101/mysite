@@ -1,0 +1,160 @@
+/*tag selector*/
+
+body {
+    color: #40514e;
+    background-color: #FCDDB0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+    margin: 0 0 0 0;
+}
+
+h1 {
+    color:  #66BFBF;
+    font-size: 90px;
+    margin: 50px auto 0 auto; 
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    color: #66BFBF;
+    font-family: 'montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+
+h3 {
+    color: #11999E;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+}
+
+hr {
+    border-color: grey;
+    border-width: 5px;
+    border-style: dotted none none;
+    width: 6%;
+    margin: 60px auto 60px auto
+
+}
+
+/* class selectors*/
+
+.top-container {
+    background-color: #EAF6F6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.sage-logo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.skill-img {
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 200px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.skill-row2 {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.massage-img {
+    width: 200px;
+    border-radius: 50%;
+    float: right;
+    margin-left: 30px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+    animation: bottomcloud 5s ease-in-out 0s infinite alternate-reverse;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+    animation: topcloud 5s ease-in-out 0s infinite alternate-reverse;
+}
+@keyframes topcloud {
+    from { right:300px;}
+    to {right:200px;}
+}   
+@keyframes bottomcloud {
+    from { left:300px;}
+    to {left:200px;}
+}
+.middle-container { 
+    margin: 100px 0;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 120px;
+    padding: 30px 0 20px;
+}
+
+
+a {
+    color: #11999E;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 20px
+}
+a:hover {
+    color: #EAF6F6;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+.btn:hover {
+    background: #30e3cb;
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+.contact-me {
+    line-height: 2;
+    margin-bottom: 40px;
+}
+.last-p {
+    margin: 30px auto 60px auto;
+}
+.rights {
+    color: #EAF6F6;
+    padding: 20px 0;
+    font-size: 0.75rem;
+
+}
+.intouch {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
